@@ -4,11 +4,6 @@
 
   <br/><br/>
 
-  <!-- Custom Animated Cyber Status HUD -->
-  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/cyber-badge.svg" width="100%" alt="Mayur's Live Status"/>
-
-  <br/><br/>
-
   <!-- Dynamic Animated Typewriter -->
   <a href="https://github.com/mayursingh24">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=50&lines=Hi+there!+I'm+Mayur+Kumar+Singh+%F0%9F%91%8B;Google+Gemini+Student+Ambassador+2026+%E2%9C%A8;B.Tech+CSE+(AI%2FML)+Specialization+%F0%9F%A4%96;Full-Stack+Python+%26+Generative+AI+Developer+%E2%9A%A1;Building+Scalable+Backends%2C+APIs+%26+OCR+Engines+%F0%9F%9A%80" alt="Dynamic Typing SVG" />
@@ -52,7 +47,7 @@ Status: Open to AI/ML Internships & Technical Collaborations 🚀
 - 🎓 **B.Tech CSE (AI/ML)**: Strong grounding in data structures, algorithms, machine learning workflows, and intelligent software engineering.
 - 🤖 **Generative AI & LLM Engineering**: Practical experience building production workflows using **Google Gemini API**, **Grok API**, document OCR, and multimodal prompt architectures.
 - ⚙️ **Backend & Database Systems**: Designing scalable RESTful APIs, relational databases, and clean architecture with **Python**, **Flask**, **Django**, and **MySQL**.
-- 🏆 **Hackathons & Competitions**:
+- 🏆 **Hackathons & Achievements**:
   - 🌟 **Google Gemini Student Ambassador 2026**
   - 🏅 **Top Qualifier (Internal Round)** — Smart India Hackathon
   - 🥉 **3rd Position** — Flowzint AI Hackathon
@@ -109,22 +104,15 @@ Status: Open to AI/ML Internships & Technical Collaborations 🚀
 
 <div align="center">
 
-<table border="0">
-  <tr>
-    <td align="center" valign="middle">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=mayursingh24&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Stats" />
-    </td>
-    <td align="center" valign="middle">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mayursingh24&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Top Languages" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="middle">
-      <br/>
-      <img src="https://streak-stats.demolab.com/?user=mayursingh24&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mayursingh24&theme=tokyonight" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mayursingh24&theme=tokyonight" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=mayursingh24&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" />
+</p>
 
 </div>
 

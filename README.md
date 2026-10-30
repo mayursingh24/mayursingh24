@@ -1,15 +1,15 @@
 <div align="center">
-  <!-- Animated Gradient Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,23,31&height=220&section=header&text=Mayur%20Kumar%20Singh&fontSize=42&fontAlignY=38&animation=twinkling&desc=AI%2FML%20Student%20%7C%20Python%20%26%20Generative%20AI%20Developer&descAlignY=62&descAlign=50" width="100%" alt="Header Banner"/>
-
-  <br/>
-
-  <!-- Animated Live Status Badge -->
-  <img src="./assets/cyber-badge.svg" width="100%" alt="Mayur's Live Status"/>
+  <!-- Custom High-Performance Animated Header -->
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/header.svg" width="100%" alt="Mayur Kumar Singh Header"/>
 
   <br/><br/>
 
-  <!-- Animated Dynamic Typing Text -->
+  <!-- Custom Animated Cyber Status HUD -->
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/cyber-badge.svg" width="100%" alt="Mayur's Live Status"/>
+
+  <br/><br/>
+
+  <!-- Dynamic Animated Typewriter -->
   <a href="https://github.com/mayursingh24">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=50&lines=Hi+there!+I'm+Mayur+Kumar+Singh+%F0%9F%91%8B;Google+Gemini+Student+Ambassador+2026+%E2%9C%A8;B.Tech+CSE+(AI%2FML)+Specialization+%F0%9F%A4%96;Full-Stack+Python+%26+Generative+AI+Developer+%E2%9A%A1;Building+Scalable+Backends%2C+APIs+%26+OCR+Engines+%F0%9F%9A%80" alt="Dynamic Typing SVG" />
   </a>
@@ -35,7 +35,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/animated-divider.svg" width="100%" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/animated-divider.svg" width="100%" alt="Divider" />
 </p>
 
 ### 👨‍💻 About Me
@@ -59,7 +59,7 @@ Status: Open to AI/ML Internships & Technical Collaborations 🚀
 - 💼 **Looking For**: Opportunities to contribute to challenging AI/ML and full-stack software products.
 
 <p align="center">
-  <img src="./assets/animated-divider.svg" width="100%" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/animated-divider.svg" width="100%" alt="Divider" />
 </p>
 
 ### 🛠️ Tech Stack & Tooling
@@ -89,7 +89,7 @@ Status: Open to AI/ML Internships & Technical Collaborations 🚀
 </div>
 
 <p align="center">
-  <img src="./assets/animated-divider.svg" width="100%" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/animated-divider.svg" width="100%" alt="Divider" />
 </p>
 
 ### 🚀 Featured Projects
@@ -102,7 +102,7 @@ Status: Open to AI/ML Internships & Technical Collaborations 🚀
 | 🛡️ **SENTINEL-AI** | Hackathon intelligence solution engineered for relationship node analysis and pattern recognition across complex criminal network data. | `Python` `Flask` `MySQL` `Gemini API` |
 
 <p align="center">
-  <img src="./assets/animated-divider.svg" width="100%" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/animated-divider.svg" width="100%" alt="Divider" />
 </p>
 
 ### 📊 GitHub Activity & Real-Time Metrics
@@ -129,10 +129,10 @@ Status: Open to AI/ML Internships & Technical Collaborations 🚀
 </div>
 
 <p align="center">
-  <img src="./assets/animated-divider.svg" width="100%" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/animated-divider.svg" width="100%" alt="Divider" />
 </p>
 
 <div align="center">
-  <!-- Animated Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,23,31&height=100&section=footer" width="100%" alt="Footer Wave"/>
+  <!-- Custom High-Performance Animated Footer -->
+  <img src="https://raw.githubusercontent.com/mayursingh24/mayursingh24/main/assets/footer.svg" width="100%" alt="Footer Wave"/>
 </div>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="220">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE">
+        <animate attributeName="stop-color" values="#00F2FE;#9B51E0;#FF007F;#00F2FE" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#4FACFE">
+        <animate attributeName="stop-color" values="#4FACFE;#00F2FE;#9B51E0;#4FACFE" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#9B51E0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF007F" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9B51E0" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#4FACFE" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#00F2FE;#FF007F;#9B51E0;#00F2FE" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#9B51E0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF007F" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#FF007F;#00F2FE;#9B51E0;#FF007F" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: 2px;
+      fill: #ffffff;
+    }
+    .badge-text {
+      font-family: 'Fira Code', Consolas, Monaco, monospace;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      fill: #00F2FE;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      fill: #94A3B8;
+    }
+  </style>
+
+  <!-- Container Box with Rounded Corners & Glow Border -->
+  <rect x="2" y="2" width="846" height="216" rx="16" fill="url(#headerBg)" stroke="url(#borderGrad)" stroke-width="2"/>
+
+  <!-- Animated Background Wave 1 -->
+  <path fill="url(#waveGrad1)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+      M 0 170 Q 212 120 425 160 T 850 150 L 850 220 L 0 220 Z;
+      M 0 160 Q 212 180 425 140 T 850 170 L 850 220 L 0 220 Z;
+      M 0 170 Q 212 120 425 160 T 850 150 L 850 220 L 0 220 Z
+    "/>
+  </path>
+
+  <!-- Animated Background Wave 2 -->
+  <path fill="url(#waveGrad2)">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
+      M 0 185 Q 212 150 425 185 T 850 165 L 850 220 L 0 220 Z;
+      M 0 165 Q 212 190 425 160 T 850 185 L 850 220 L 0 220 Z;
+      M 0 185 Q 212 150 425 185 T 850 165 L 850 220 L 0 220 Z
+    "/>
+  </path>
+
+  <!-- Twinkling Ambient Stars -->
+  <circle cx="80" cy="50" r="1.5" fill="#00F2FE">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="90" r="2" fill="#FF007F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="40" r="1.8" fill="#9B51E0">
+    <animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="45" r="2" fill="#00F2FE">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="790" cy="85" r="1.5" fill="#FF007F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="640" cy="65" r="1.8" fill="#4FACFE">
+    <animate attributeName="opacity" values="0.1;1;0.1" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Top Pill: Google Gemini Student Ambassador 2026 -->
+  <g transform="translate(425, 42)">
+    <rect x="-165" y="-14" width="330" height="28" rx="14" fill="#131d33" stroke="url(#neonCyan)" stroke-width="1.2"/>
+    <!-- Live Green Dot -->
+    <circle cx="-145" cy="0" r="4" fill="#00FF88" filter="url(#softGlow)">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="5" y="4" text-anchor="middle" class="badge-text">&#x2728; GOOGLE GEMINI AMBASSADOR 2026</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="425" y="112" text-anchor="middle" class="title-text" filter="url(#textGlow)">
+    MAYUR KUMAR SINGH
+  </text>
+
+  <!-- Subtitle -->
+  <text x="425" y="148" text-anchor="middle" class="subtitle-text">
+    B.Tech CSE (AI/ML) &#8226; Python &amp; Generative AI Developer &#8226; Backend Engineer
+  </text>
+</svg>

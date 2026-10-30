@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 70" width="100%" height="70">
+  <defs>
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE">
+        <animate attributeName="stop-color" values="#00F2FE;#9B51E0;#FF007F;#00F2FE" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#9B51E0">
+        <animate attributeName="stop-color" values="#9B51E0;#FF007F;#00F2FE;#9B51E0" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="5" y="5" width="690" height="60" rx="12" fill="#0d1117" stroke="url(#cyberBorder)" stroke-width="2" filter="url(#glow)"/>
+  
+  <!-- Pulsing Live Dot -->
+  <circle cx="35" cy="35" r="6" fill="#00FF88">
+    <animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Title & Subtitle -->
+  <text x="55" y="31" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#E6EDF3" letter-spacing="1">
+    MAYUR KUMAR SINGH &bull; AI/ML &amp; SOFTWARE DEVELOPER
+  </text>
+  <text x="55" y="49" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="12" font-weight="500" fill="#8B949E">
+    Google Gemini Student Ambassador 2026 &bull; Lucknow, India &bull; Open to AI/ML Opportunities
+  </text>
+</svg>
